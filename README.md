@@ -33,7 +33,7 @@ action "package" {
 }
 ```
 
-It is simply for backward-compatibility.
+It is simply for forward-compatibility.
 
 ## License
 

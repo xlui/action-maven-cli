@@ -13,7 +13,7 @@ action "package" {
 }
 ```
 
-But in order to keep backward-compatibility, you can also use this GitHub Action in the following way:
+But in order to keep forward-compatibility, you can also use this GitHub Action in the following way:
 
 ```
 action "package" {
