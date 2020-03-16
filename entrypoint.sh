@@ -4,6 +4,6 @@ set -e
 
 echo "==========Starting Maven Commands=========="
 
-sh -c "mvn $*"
+sh -c "mvn $1"
 
 echo "==========Finished Maven Commands=========="
