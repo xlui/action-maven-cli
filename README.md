@@ -6,34 +6,7 @@ The GitHub Action for [Maven](https://maven.apache.org/) wraps the Maven CLI to 
 
 ## Usage
 
-Maven with JDK 8:
 
-```
-action "package" {
-  uses = "xlui/action-maven-cli/jdk8@master"
-  args = "clean package"
-}
-```
-
-Maven with JDK 11:
-
-```
-action "package" {
-  uses = "xlui/action-maven-cli/jdk11@master"
-  args = "clean package"
-}
-```
-
-Also, there is another way to use Maven with JDK 11:
-
-```
-action "package" {
-  uses = "xlui/action-maven-cli@master"
-  args = "clean package"
-}
-```
-
-It is simply for forward-compatibility.
 
 ## License
 

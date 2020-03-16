@@ -1,0 +1,12 @@
+name: 'Maven CLI for the GitHub Actions'
+description: 'Use Maven CLI with JDK 8, 10, 11, 12, 13'
+inputs:
+    lifecycle:
+        description: 'Maven lifecycles'
+        required: true
+        default: 'clean package'
+runs:
+    using: 'docker'
+    image: 'Dockerfile'
+    args:
+        ${{ inputs.lifecycle }}
