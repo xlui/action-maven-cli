@@ -1,8 +1,8 @@
-FROM maven:3.6.0-jdk-11-slim
+FROM maven:3.6-jdk-11-slim
 
 LABEL "name"="Maven CLI Action with JDK 11"
 LABEL "maintainer"="xlui <i@xlui.me>"
-LABEL "version"="1.0.0"
+LABEL "version"="1.1.0"
 
 LABEL "com.github.actions.name"="GitHub Action for Maven & JDK 11"
 LABEL "com.github.actions.description"="Provide maven cli for JDK 11 projects."
