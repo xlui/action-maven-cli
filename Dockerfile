@@ -1,4 +1,4 @@
-FROM maven:3.6-openjdk-11-slim
+FROM maven:3.6-openjdk-8-slim
 
 LABEL "name"="Maven CLI For GitHub Actions"
 LABEL "maintainer"="xlui <i@xlui.me>"
