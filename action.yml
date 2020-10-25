@@ -1,5 +1,5 @@
 name: 'Maven CLI For GitHub Actions'
-description: 'Use Maven CLI with JDK 8, 11, 14'
+description: 'Use Maven CLI with JDK 8, 11, 14, 15'
 inputs:
     lifecycle:
         description: 'Maven lifecycles'
