@@ -22,7 +22,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: 2. Run maven test
-      uses: xlui/action-maven-cli
+      uses: xlui/action-maven-cli@master
       with:
         lifecycle: 'clean package test'
 ```
@@ -44,6 +44,36 @@ echo "==========Finished Maven Commands=========="
 ```
 
 Have you noticed the conversion?
+
+## How to work with OpenJDK 8 or OpenJDK 15
+
+By default the highest OpenJDK version supported is 11. And If you want to work with OpenJDK 8 or OpenJDK 15, just change the branch of this repo.
+
+For OpenJDK 8:
+
+```yml
+uses: xlui/action-maven-cli@jdk8
+```
+
+For OpenJDK 11(alternative `master`):
+
+```yml
+uses: xlui/action-maven-cli@jdk11
+```
+
+For OpenJDK 14:
+
+```yml
+uses: xlui/action-maven-cli@jdk14
+```
+
+For OpenJDK 15:
+
+```yml
+uses: xlui/action-maven-cli@jdk15
+```
+
+Note that OpenJDK 15 is not a LTS release, the branch `jdk15` will be deleted when the [upstream](https://hub.docker.com/_/maven) is deleted. 
 
 ## License
 
