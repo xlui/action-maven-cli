@@ -10,3 +10,6 @@ runs:
     image: 'Dockerfile'
     args:
         - ${{ inputs.lifecycle }}
+branding:
+  icon: 'chevron-right'  
+  color: 'orange'
